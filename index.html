@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <head>
+        <title>Pokemon Cards</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+    </head>
+    <body>
+        
+        <header>
+            <menu>
+                <div>
+                    <h1 id="logo">Pokemon Cards</h1>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="search-field" name="search" placeholder="Search">
+                    <div class="radio-box">
+                        <input type="radio" name="filters" value="name" id="name-button" checked>
+                        <label for="name-button">Name</label>
+                        <input type="radio" name="filters" value="number" id="number-button">
+                        <label for="number-button">Number</label>
+                    </div>
+                </div>
+            </menu>
+        </header>
+        <main>
+            <div class="pokenavbar">
+                <div id="not-found">Whoops! No Pokemon found. Try a different search!</div>
+                <div class="pokenav">
+                    <div id="pokemenu">
+                        <div class="pokemon"></div>
+                        <div class="pokemon"></div>
+                        <div class="pokemon"></div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper">
+                <div class="image">
+                    <img src="https://placehold.co/600x400">
+                </div>
+                <h2>Name</h2>
+                <h4>Stat</h4>
+                <h4>Stat</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim commodi, molestiae itaque fugiat aliquid culpa rem soluta nobis beatae iste vero debitis atque distinctio ab voluptatum necessitatibus quae voluptate dolorem.</p>
+            </div>
+        </main>
+        <footer>
+            <div class="socks">
+                <p>Designed & Developed by Jackie James | 2024</p>
+            </div>
+            <div class="socks">
+                <ul>
+                    <li>LinkedIn</li>
+                    <li>BlueSky</li>
+                    <li>Xbox</li>
+                </ul>
+            </div>
+        </footer>
+        <script src="js/app.js"></script>
+        <script src="js/pokescroll.js"></script>
+    </body>
